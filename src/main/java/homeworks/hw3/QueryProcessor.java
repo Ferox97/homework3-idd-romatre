@@ -16,7 +16,7 @@ public class QueryProcessor {
 
     public static void main(String[] args) throws Exception {
         // Imposta il percorso dell'indice Lucene
-        String indexPath = "C:\\Users\\Fero\\Desktop\\hw3\\indici";
+        String indexPath = "C:\\Users\\Fero\\Desktop\\Ingegneria dei Dati\\hw3\\indici";
         
         // Apri una DirectoryReader per leggere l'indice
         Directory directory = FSDirectory.open(Paths.get(indexPath));
